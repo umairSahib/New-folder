@@ -1,0 +1,81 @@
+
+
+
+.power-container{
+    display: flex;
+    gap: 30px;
+}
+.power-text{
+    background:    #F1F1F1 ;
+    padding: 40px 80px;
+    border: none;
+    border-radius: 39px;
+    margin-left: 120px;
+}
+.power-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    max-width: 870px;
+    font-family: "Nunito", sans-serif;
+}
+.power-text h2{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    line-height: 157.4%;
+    max-width: 587px;
+ }
+
+
+ header{
+    position: relative;
+    overflow-x: hidden;
+  }
+   header:after {
+      content: ''; 
+      display: block; 
+      position: absolute; 
+      top: 6rem;
+      bottom: 7rem;
+      z-index: -1; 
+      background: url('background(1).png') no-repeat right 50%;
+      width: 100%;
+  
+    }
+    .power-images img{
+        margin-right: 150px;
+    
+    }
+    .power-image{
+        display: flex;
+    }
+    .p-text h1{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Nunito", sans-serif ;
+    }
+    .image-fluid{
+        max-width: 100%;
+        height: auto;
+        
+    }
+   
+   @media (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+        padding: 0;
+        margin: 120px auto;
+    }
+   }
+   @media (min-width: 1400px){
+    .container{
+        max-width: 1400px;
+        padding: 0;
+        margin: 120px auto;
+    }
+    .power-images{
+        margin-right: 120px;
+    }
+
+   }
