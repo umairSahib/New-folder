@@ -9,12 +9,14 @@ body{
 }
 
 
-.power-container {
+.power-container{
     display: flex;
-    margin-top: 200px;
-    margin-bottom: 200px;
-  
+    background-image: url('background\(1\).png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
 .power-text {
     background: #F1F1F1;
     padding: 40px 80px;
@@ -59,7 +61,7 @@ body{
         
     }
     .power-images img{
-     margin-right: 300px;
+    
      margin-top: 80px;
      margin-bottom: 68px;
     }
@@ -136,6 +138,7 @@ body{
             background-repeat: no-repeat;
             background-size: contain;
         }
+       
         
   }
     
