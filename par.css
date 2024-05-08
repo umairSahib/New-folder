@@ -4,13 +4,17 @@
 .power-container{
     display: flex;
     gap: 30px;
+    background: url('background(1).png') repeat none;
+    margin-top: 200px;
+   
+    
 }
 .power-text{
     background:    #F1F1F1 ;
     padding: 40px 80px;
     border: none;
     border-radius: 39px;
-    margin-left: 120px;
+ 
 }
 .power-text h1{
     font-size: 50px;
@@ -27,26 +31,6 @@
     max-width: 587px;
  }
 
-
- header{
-    position: relative;
-    overflow-x: hidden;
-  }
-   header:after {
-      content: ''; 
-      display: block; 
-      position: absolute; 
-      top: 6rem;
-      bottom: 7rem;
-      z-index: -1; 
-      background: url('background(1).png') no-repeat right 50%;
-      width: 100%;
-  
-    }
-    .power-images img{
-        margin-right: 150px;
-    
-    }
     .power-image{
         display: flex;
     }
@@ -61,21 +45,3 @@
         
     }
    
-   @media (min-width: 1200px){
-    .container{
-        max-width: 1200px;
-        padding: 0;
-        margin: 120px auto;
-    }
-   }
-   @media (min-width: 1400px){
-    .container{
-        max-width: 1400px;
-        padding: 0;
-        margin: 120px auto;
-    }
-    .power-images{
-        margin-right: 120px;
-    }
-
-   }
